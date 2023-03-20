@@ -1,6 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
+
 html,body{
-    background-color: #fff;
-    font-family: 'Source Sans Pro',sans-serif;
+    background-color: #418c51;
+    font-family: 'Cooper Black', sans-serif;
     overflow-x: hidden !important;
     margin: 0px !important;
     padding: 0px !important;
@@ -22,7 +24,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     padding: 0 25px 0 25px;
-    background-color: #fff;
+    background-color: antiquewhite;
     box-shadow: 0 19px 38px rgba(0,0,0,0.10);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -32,11 +34,7 @@ html,body{
     margin-right: 25px;
     font-size: 16px;
     font-weight: 600;
-    color: #000;
-}
-
-.nav .links .mainlink{
-    color: #e0501b;
+    color: #418c51;
 }
 
 .nav h4{
@@ -59,6 +57,8 @@ html,body{
 .landingText h1{
     font-size: 6vw;
     margin: 0 !important;
+    color: #fbde4f;
+
 }
 
 .landingText h3{
@@ -133,10 +133,9 @@ ol li{
 
 li p{
     font-size: 16px;
-    color: #000;
+    color: #e1e266;
     padding-left: 60px;
     line-height: 30px;
-    opacity: 0.6;
 }
 
 li span{
