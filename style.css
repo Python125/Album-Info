@@ -2,7 +2,6 @@
 
 html,body{
     background-color: #418c51;
-    font-family: 'Cooper Black', sans-serif;
     overflow-x: hidden !important;
     margin: 0px !important;
     padding: 0px !important;
@@ -10,37 +9,6 @@ html,body{
 
 *{
     text-decoration: none !important;
-}
-
-.nav{
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px 0 25px;
-    background-color: antiquewhite;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.nav .links a{
-    margin-right: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #418c51;
-}
-
-.nav h4{
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 25px;
 }
 
 /* LANDING CSS */
@@ -55,37 +23,28 @@ html,body{
 }
 
 .landingText h1{
-    font-size: 6vw;
-    margin: 0 !important;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 100px;
+    text-align: center;
     color: #fbde4f;
-
 }
 
 .landingText h3{
-    margin: 6px !important;
-    font-size: 20px;
-    opacity: 0.3;
-    line-height: 30px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #fffeff;
 }
 
-.landingText .btn{
-    width: 120px;
-    margin-top: 30px;
-    padding: 14px 20px 14px 20px;
-    background-color: #2f8be0;
-    border-radius: 45px;
-    text-align: center
-}
-
-.landingText .btn a{
-    font-size: 1.2vw;
-    color: #fff;
+.landingText p {
+    color: #fbde4f;
+    justify-content: space-between;
+    font-size: 23px;
 }
 
 .landingImage img{
     width: 28vw;
 }
-
 
 /* ABOUT CSS */
 
@@ -238,7 +197,6 @@ li span{
     width: 16px;
 }
 
-
 /* Banner */
 
 .banner{
@@ -286,7 +244,6 @@ li span{
     color: #e0501b;
 }
 
-
 /* RESPONSIVE */
 
 
@@ -311,7 +268,6 @@ li span{
     font-size: 12px;
     font-weight: 600;
 }
-
 
 /* LANDING PAGE */
 
@@ -344,7 +300,6 @@ li span{
     width: 52vw;
     margin-bottom: 20px;
 }
-
 
 /* ABOUT */
 
