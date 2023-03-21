@@ -8,9 +8,10 @@ html,body{
     padding: 0px !important;
 }
 
-*{
-    text-decoration: none !important;
-}
+#background1 {
+    background-image: url(https://townsquare.media/site/295/files/2016/04/Capitol-Photo-Archives1.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89);
+    background-size: 30%;
+  }
 
 /* LANDING CSS */
 
