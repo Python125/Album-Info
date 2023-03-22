@@ -130,14 +130,14 @@ li span{
 
 .infoCards .card{
     position: relative;
-    height: 360px;
-    width: 350px;
+    height: 400px;
+    width: 500px;
     background: #fff;
     box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
 }
 
 .infoCards .one .cardoneImg{
-    width: 180px;
+    width: 300px;
     position: absolute;
     top: -50px;
     right: -50px;
