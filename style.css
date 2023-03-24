@@ -60,3 +60,10 @@ p {
 .landingImage img{
     width: 28vw;
 }
+
+.albumText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
