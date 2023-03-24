@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/cooper-black');
 @import url('https://fonts.cdnfonts.com/css/urwclarendont');
 
-html,body{
+html,body {
     background-color: #418c51;
     overflow-x: hidden !important;
     margin: 0px !important;
@@ -27,7 +27,7 @@ p {
 
 /* LANDING CSS */
 
-.landing{
+.landing {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,14 +36,14 @@ p {
     height: 975px;
 }
 
-.landingText h1{
+.landingText h1 {
     font-family: 'Cooper Black', sans-serif;
     font-size: 100px;
     text-align: center;
     color: #fbde4f;
 }
 
-.landingText h3{
+.landingText h3 {
     font-family: 'Cooper Black', sans-serif;
     font-size: 24px;
     text-align: center;
@@ -57,7 +57,7 @@ p {
     font-size: 22px;
 }
 
-.landingImage img{
+.landingImage img {
     width: 550px;
 }
 
