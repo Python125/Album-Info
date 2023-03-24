@@ -16,6 +16,7 @@ html,body{
 h2 {
     color: #fbde4f;
     font-family: 'Cooper Black', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -24,7 +25,6 @@ p {
     font-family: 'ClarendonTBol', sans-serif;
 }
 
-
 /* LANDING CSS */
 
 .landing{
@@ -32,8 +32,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
-    height: 100vh;
+    padding: 0 150px 0 150px;
+    height: 975px;
 }
 
 .landingText h1{
@@ -58,7 +58,7 @@ p {
 }
 
 .landingImage img{
-    width: 600px;
+    width: 550px;
 }
 
 .albumText {
@@ -66,4 +66,5 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10vw 0 10vw;
 }
