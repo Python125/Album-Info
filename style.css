@@ -32,7 +32,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px 0 150px;
+    padding: 0 9vw 0 9vw;
     height: 975px;
 }
 
