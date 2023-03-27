@@ -13,6 +13,14 @@ html,body {
     background-size: 30%;
 }
 
+h1 {
+    color: #fbde4f;
+    font-family: 'Cooper Black', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    padding: 25px;
+}
+
 h2 {
     color: #fbde4f;
     font-family: 'Cooper Black', sans-serif;
