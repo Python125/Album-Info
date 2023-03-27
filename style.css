@@ -72,6 +72,12 @@ p {
     padding: 0 10vw 0 10vw;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .albumText {
     display: flex;
     flex-direction: row;
