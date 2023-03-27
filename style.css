@@ -8,6 +8,10 @@ html,body {
     padding: 0px !important;
 }
 
+.landingImage img {
+    width: 550px;
+}
+
 #background1 {
     background-image: url(https://s.hdnux.com/photos/46/34/00/10076184/4/rawImage.jpg);
     background-size: 30%;
@@ -31,6 +35,13 @@ p {
     font-size: 20px;
     color: #fffeff;
     font-family: 'ClarendonTBol', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+}
+
+img {
+    justify-content: center;
 }
 
 /* LANDING CSS */
@@ -63,10 +74,6 @@ p {
     color: #fbde4f;
     justify-content: space-between;
     font-size: 22px;
-}
-
-.landingImage img {
-    width: 550px;
 }
 
 .albumText {
