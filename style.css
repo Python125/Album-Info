@@ -113,7 +113,6 @@ audio {
     bottom: 0;
     left: 50%;
     width: 2px;
-    background-color: #ccc;
     transform: translateX(-50%);
 }
   
@@ -125,7 +124,6 @@ audio {
     left: 0;
     width: 10px;
     height: 10px;
-    background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
     transform: translate(-50%, -50%);
@@ -161,7 +159,6 @@ audio {
     right: -5px;
     width: 10px;
     height: 10px;
-    background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
     transform: translate(-50%, -50%);
