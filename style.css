@@ -75,6 +75,45 @@ html,body {
     font-size: 14px;
 }
 
+#progress-bar-container li.active,
+#progress-bar-container li:hover {
+    color: deepskyblue;
+}
+
+#progress-bar-container li:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #777;
+    margin: auto;
+    border: solid 7px white;
+    border-radius: 50%;
+    margin-top: 40px;
+    box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.2s;
+}
+
+#progress-bar-container li:hover:after {
+    background: deepskyblue;
+}
+
+#progress-bar-container li:active:after {
+    background: deepskyblue;
+}
+
+#progress-bar-container #line {
+    width: 80%;
+    margin: auto;
+    background: #eee;
+    height: 5px;
+    position: absolute;
+    left: 10%;
+    top: 57px;
+    z-index: 1;
+    border-radius: 50px;
+    transition: all ease 0.9s;
+}
 
 h1 {
     color: #fbde4f;
