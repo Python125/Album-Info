@@ -8,41 +8,7 @@ html,body {
     padding: 0px !important;
 }
 
-/* LANDING CSS */
 
-.landing {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 9vw 0 9vw;
-    height: 975px;
-}
-
-.landingText h1 {
-    font-family: 'Cooper Black', sans-serif;
-    font-size: 100px;
-    text-align: center;
-    color: #fbde4f;
-}
-
-.landingText h3 {
-    font-family: 'Cooper Black', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: #fffeff;
-}
-
-.landingText p {
-    font-family: 'ClarendonTBol', sans-serif;
-    color: #fbde4f;
-    justify-content: space-between;
-    font-size: 22px;
-}
-
-.landingImage img {
-    width: 550px;
-}
 
 #background1 {
     background-image: url(https://s.hdnux.com/photos/46/34/00/10076184/4/rawImage.jpg);
@@ -87,4 +53,40 @@ p {
 audio {
     margin: 0 auto;
     display: block;
+}
+
+/* LANDING CSS */
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9vw 0 9vw;
+    height: 975px;
+}
+
+.landingText h1 {
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #fbde4f;
+}
+
+.landingText h3 {
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #fffeff;
+}
+
+.landingText p {
+    font-family: 'ClarendonTBol', sans-serif;
+    color: #fbde4f;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.landingImage img {
+    width: 550px;
 }
