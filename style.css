@@ -8,6 +8,11 @@ html,body {
     padding: 0px !important;
 }
 
+#background1 {
+    background-image: url(https://s.hdnux.com/photos/46/34/00/10076184/4/rawImage.jpg);
+    background-size: 30%;
+}
+
 h1 {
     color: #fbde4f;
     font-family: 'Cooper Black', sans-serif;
