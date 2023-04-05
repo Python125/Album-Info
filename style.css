@@ -115,6 +115,30 @@ html,body {
     transition: all ease 0.9s;
 }
 
+#progress-bar-container #line-process {
+    content: "";
+    width: 3%;
+    height: 100%;
+    background: deepskyblue;
+    background: linear-gradient(to right, deepskyblue 0%, #2ea3b7 100%);
+    position: absolute;
+    z-index: 2;
+    border-radius: 50px;
+    transform: all ease 0.9s;
+}
+
+#progress-content-section {
+    width: 90%;
+    margin: auto;
+    background: #f3f3f3;
+    border-radius: 4px;
+}
+
+#progress-content-section .section-content {
+    padding: 30px 40px;
+    text-align: center;
+}
+
 h1 {
     color: #fbde4f;
     font-family: 'Cooper Black', sans-serif;
