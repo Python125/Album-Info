@@ -129,16 +129,42 @@ audio {
     z-index: 1;
 }
 
+.timeline-event {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: #418c51;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-right: 20px;
+}
 
+.timeline-event:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #ccc;
+    border-bottom: 10px solid transparent;
+    transform: translateY(-50%);
+}
 
-
-
-
-
-
-
-
-
+.timeline-event:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 
 .timeline-container {
     display: flex;
