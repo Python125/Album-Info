@@ -29,6 +29,7 @@ h2 {
 
 h3 {
     color: #fbde4f;
+    font-family: 'Cooper Black', sans-serif;
 }
 
 p {
@@ -100,6 +101,51 @@ audio {
     flex-direction: row;
     justify-content: center;
     position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #ccc;
+    transform: translateX(-50%);
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.timeline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
 }
 
 .timeline-event-date {
