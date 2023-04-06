@@ -131,7 +131,7 @@ audio {
 
 .timeline-event {
     position: relative;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     background-color: #418c51;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
