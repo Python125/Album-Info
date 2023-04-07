@@ -111,8 +111,8 @@ audio {
 .timeline-event {
     flex: 0 0 400px;
     margin-right: 40px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #418c51;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
   
@@ -120,7 +120,7 @@ audio {
     font-size: 24px;
     font-weight: bold;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #418c51;
 }
   
 .timeline-event-content {
