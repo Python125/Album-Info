@@ -3,7 +3,7 @@
 
 html,body {
     background-color: #418c51;
-    overflow-x: hidden !important;
+    overflow-x: none;
     margin: 0px !important;
     padding: 0px !important;
 }
@@ -136,7 +136,7 @@ audio {
 }
 
 .timeline-content {
-    background-color: #f2f2f2;
+    background-color: #509e61;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -147,6 +147,7 @@ audio {
 
 
 .timeline-content h3 {
+    color: #d3ba3b;
     margin-top: 0;
     font-size: 30px;
 }
