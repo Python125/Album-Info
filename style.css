@@ -38,19 +38,18 @@ p {
     font-family: 'ClarendonTBol', sans-serif;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .albumText {
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 20vw 0 20vw;
 }
 
 audio {
@@ -154,14 +153,15 @@ audio {
   
 .timeline-content p {
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 1%;
 }
-
+  
 .timeline-item.active .timeline-content {
     transform: scale(1);
     opacity: 1;
 }
-
+  
 .timeline-controls {
     position: absolute;
     top: 50%;
