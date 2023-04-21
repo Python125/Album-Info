@@ -38,6 +38,7 @@ p {
     font-family: 'ClarendonTBol', sans-serif;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10vw 0 10vw;
 }
 
 .center {
@@ -49,7 +50,7 @@ p {
 .albumText {
     justify-content: space-between;
     align-items: center;
-    padding: 0 20vw 0 20vw;
+    padding: 0 10vw 0 10vw;
 }
 
 audio {
