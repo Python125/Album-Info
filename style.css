@@ -156,12 +156,12 @@ audio {
     margin-bottom: 0;
     font-size: 20px;
 }
-  
+
 .timeline-item.active .timeline-content {
     transform: scale(1);
     opacity: 1;
 }
-  
+
 .timeline-controls {
     position: absolute;
     top: 50%;
@@ -172,7 +172,7 @@ audio {
     justify-content: space-between;
     padding: 0 10px;
 }
-  
+
 .timeline-controls button {
     width: 100px;
     height: 100px;
@@ -183,38 +183,38 @@ audio {
     cursor: pointer;
     transition: all 0.3s;
 }
-  
+
 .timeline-controls button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-  
+
 .timeline-controls button.disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
-  
+
 .timeline-controls .prev-btn {
     margin-right: auto;
 }
-  
+
 .timeline-controls .next-btn {
     margin-left: auto;
 }
-  
+
 @media only screen and (max-width: 768px) {
     .timeline-slider {
       margin: 0;
       transform: translateX(0);
-}
-  
+    }
+
     .timeline-item {
       width: 100%;
     }
-  
+
     .timeline-container {
       height: auto;
     }
-  
+
     .timeline-controls {
       position: relative;
       top: auto;
