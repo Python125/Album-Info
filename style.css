@@ -3,7 +3,7 @@
 
 html,body {
     background-color: #418c51;
-    overflow-x: none;
+    overflow-x: hidden;
     margin: 0px !important;
     padding: 0px !important;
 }
