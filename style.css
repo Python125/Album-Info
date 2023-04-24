@@ -206,33 +206,11 @@ audio {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 1366px) {
-    .timeline-slider {
-        margin: 0;
-        transform: translateX(0);        
-    }
-
-    .timeline-item {
-        width: 75%;
-    }
-
-    .timeline-container {
-        height: auto;
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
-    .timeline-controls {
-        position: relative;
-        top: auto;
-        transform: translateY(0);
-        width: 75%;
-    }
-}
-
 @media only screen and (max-width: 768px) {
+    html,body {
+        overflow-x: hidden;
+    }
+    
     .timeline-slider {
         margin: 0;
         transform: translateX(0);        
