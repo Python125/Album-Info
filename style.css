@@ -213,12 +213,13 @@ audio {
     }
 
     .timeline-item {
-        width: 30%;
+        width: 10%;
     }
 
     .timeline-container {
         height: auto;
-        width: 400px;
+        width: 100%;
+        max-width: 300px;
         margin: 0 auto;
         padding: 0 20px;
     }
