@@ -206,6 +206,8 @@ audio {
     margin-left: auto;
 }
 
+@media only screen and (max-width: 1366px) {}
+
 @media only screen and (max-width: 768px) {
     .timeline-slider {
         margin: 0;
