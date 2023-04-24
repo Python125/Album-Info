@@ -228,5 +228,6 @@ audio {
         position: relative;
         top: auto;
         transform: translateY(0);
+        width: 100%;
     }
 }
