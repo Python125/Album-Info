@@ -17,7 +17,7 @@ h1 {
     color: #fbde4f;
     font-family: 'Cooper Black', sans-serif;
     text-align: left;
-    font-size: 50px;
+    font-size: 5vw;
     padding: 5px;
 }
 
@@ -33,12 +33,12 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 4vw;
     color: #fffeff;
     font-family: 'ClarendonTBol', sans-serif;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 5vw 0 5vw;
 }
 
 .center {
@@ -50,7 +50,7 @@ p {
 .albumText {
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 5vw 0 5vw;
 }
 
 audio {
@@ -72,7 +72,7 @@ audio {
 
 .landingText h1 {
     font-family: 'Cooper Black', sans-serif;
-    font-size: 8vw;
+    font-size: 10vw;
     text-align: center;
     color: #fbde4f;
     margin-bottom: 1rem;
@@ -80,7 +80,7 @@ audio {
 
 .landingText h3 {
     font-family: 'Cooper Black', sans-serif;
-    font-size: 2.2vw;
+    font-size: 4vw;
     text-align: center;
     color: #fffeff;
     margin-bottom: 1rem;
@@ -89,7 +89,7 @@ audio {
 .landingText p {
     font-family: 'ClarendonTBol', sans-serif;
     color: #fbde4f;
-    font-size: 1.5vw;
+    font-size: 3vw;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -105,8 +105,9 @@ audio {
 .timeline-container {
     position: relative;
     margin: 50px 0;
-    width: 1890px;
+    width: 100%;
     height: 500px;
+    overflow-x: scroll;
 }
 
 .timeline-slider {
@@ -114,13 +115,13 @@ audio {
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    margin: 0 -10px;
+    margin: 0;
     transition: transform 0.3s ease-in-out;
 }
 
 .timeline-item {
     flex: none;
-    width: 25%;
+    width: 50%;
     text-align: center;
     position: relative;
 }
@@ -131,9 +132,10 @@ audio {
     left: 0;
     width: 100%;
     border-top: none;
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
     height: 30px;
+
 }
 
 .timeline-item:last-of-type .timeline-content-container {
@@ -142,7 +144,7 @@ audio {
 
 .timeline-content {
     background-color: #509e61;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
@@ -153,12 +155,12 @@ audio {
 .timeline-content h3 {
     color: #d3ba3b;
     margin-top: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .timeline-content p {
     margin-bottom: 0;
-    font-size: 19px;
+    font-size: 16px;
     padding: 1%;
 }
 
@@ -171,7 +173,7 @@ audio {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 99%;
+    width: 100%;
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
@@ -179,12 +181,12 @@ audio {
 }
 
 .timeline-controls button {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -217,7 +219,7 @@ audio {
     }
 
     .timeline-item {
-        width: 50%;
+        width: 100%;
     }
 
     .timeline-container {
@@ -233,5 +235,20 @@ audio {
         top: auto;
         transform: translateY(0);
         width: 100%;
+        padding: 10px 0;
+    }
+    
+    .timeline-controls button {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    .timeline-content h3 {
+        font-size: 16px;
+    }
+    
+    .timeline-content p {
+        font-size: 14px;
     }
 }
