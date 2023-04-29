@@ -220,6 +220,15 @@ audio {
         width: 50%;
     }
 
+    .timeline-content {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        transform: scale(0.8);
+        height: 50%;
+    }
+
     .timeline-container {
         height: auto;
         width: 100%;
