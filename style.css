@@ -105,9 +105,8 @@ audio {
 .timeline-container {
     position: relative;
     margin: 50px 0;
-    width: 100%;
-    max-width: 1890px;
-    height: auto;
+    width: 1890px;
+    height: 500px;
 }
 
 .timeline-slider {
@@ -115,7 +114,7 @@ audio {
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    margin: 0 -2%;
+    margin: 0 -10px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -143,7 +142,7 @@ audio {
 
 .timeline-content {
     background-color: #509e61;
-    padding: 2%;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
@@ -154,12 +153,12 @@ audio {
 .timeline-content h3 {
     color: #d3ba3b;
     margin-top: 0;
-    font-size: 2vw;
+    font-size: 30px;
 }
 
 .timeline-content p {
     margin-bottom: 0;
-    font-size: 1vw;
+    font-size: 19px;
     padding: 1%;
 }
 
@@ -172,20 +171,20 @@ audio {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 99%;
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 0 10px;
 }
 
 .timeline-controls button {
-    width: 12%;
+    width: 100px;
     height: 100px;
     border: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    font-size: 1.0vw;
+    font-size: 20px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -234,159 +233,5 @@ audio {
         top: auto;
         transform: translateY(0);
         width: 100%;
-        padding: 0 5%;
-    }
-
-    .timeline-controls button {
-        width: 25%;
-        font-size: 4vw;
-    }
-
-    .timeline-content h3 {
-        font-size: 5vw;
-    }
-
-    .timeline-content p {
-        font-size: 19px;
-        padding: 1%;
-    }
-    .timeline-item.active .timeline-content {
-        transform: scale(1);
-        opacity: 1;
-    }
-    
-    .timeline-controls {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 99%;
-        transform: translateY(-50%);
-        display: flex;
-        justify-content: space-between;
-        padding: 0 10px;
-    }
-    
-    .timeline-controls button {
-        width: 100px;
-        height: 100px;
-        border: none;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        font-size: 20px;
-        cursor: pointer;
-        transition: all 0.3s;
-    }
-    
-    .timeline-controls button:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    .timeline-controls button.disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-    }
-    
-    .timeline-controls .prev-btn {
-        margin-right: auto;
-    }
-    
-    .timeline-controls .next-btn {
-        margin-left: auto;
-    }
-    
-    @media only screen and (max-width: 768px) {
-        html,body {
-            overflow-x: hidden;
-        }
-        
-        .timeline-slider {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            height: 100%;
-            margin: 0 -10px;
-            transition: transform 0.3s ease-in-out;
-            overflow-x: auto; /* Add overflow-x to enable horizontal scrolling */
-            -webkit-overflow-scrolling: touch; /* Add smooth scrolling for iOS devices */
-        }
-    
-        .timeline-item {
-            width: 50%;
-        }
-    
-        .timeline-container {
-            height: auto;
-            width: 100%;
-            max-width: 300px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-    
-        .timeline-controls {
-            position: relative;
-            top: auto;
-            transform: translateY(0);
-            width: 100%;
-        }
-    
-        .timeline-content {
-            font-size: 16px;
-        }
-    
-        .timeline-content h3 {
-            font-size: 24px;
-        }
-    
-        .timeline-content p {
-            font-size: 14px;
-        }
-    }
-    
-    @media only screen and (min-width: 768px) and (max-width: 1200px) {
-        .timeline-item {
-            width: 33.333%;
-        }
-    
-        .timeline-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-    
-        .timeline-content {
-            font-size: 18px;
-        }
-    
-        .timeline-content h3 {
-            font-size: 28px;
-        }
-    
-        .timeline-content p {
-            font-size: 16px;
-        }
-    }
-    
-    @media only screen and (min-width: 1200px) {
-        .timeline-item {
-            width: 25%;
-        }
-    
-        .timeline-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-    
-        .timeline-content {
-            font-size: 19px;
-        }
-    
-        .timeline-content h3 {
-            font-size: 30px;
-        }
-    
-        .timeline-content p {
-            font-size: 19px;
-        }
     }
 }
