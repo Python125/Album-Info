@@ -206,9 +206,9 @@ audio {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     html,body {
-        overflow-x: none;
+        overflow-x: hidden;
     }
     
     .timeline-slider {
@@ -222,7 +222,7 @@ audio {
 
     .timeline-container {
         height: auto;
-        width: 10%;
+        width: 50%;
         max-width: 300px;
         margin: 0 auto;
         padding: 0 20px;
