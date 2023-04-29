@@ -100,6 +100,20 @@ audio {
     height: auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+  @media screen and (min-width: 768px) {
+    /* adjust image size and positioning for larger screens */
+    img {
+      max-width: 50%;
+      float: left;
+      margin-right: 20px;
+    }
+}  
+
 /* TIMELINE */
 
 .timeline-container {
