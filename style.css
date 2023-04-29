@@ -300,8 +300,14 @@ audio {
         }
         
         .timeline-slider {
-            margin: 0;
-            transform: translateX(0);        
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+            margin: 0 -10px;
+            transition: transform 0.3s ease-in-out;
+            overflow-x: auto; /* Add overflow-x to enable horizontal scrolling */
+            -webkit-overflow-scrolling: touch; /* Add smooth scrolling for iOS devices */
         }
     
         .timeline-item {
