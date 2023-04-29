@@ -232,7 +232,7 @@ audio {
     .timeline-container {
         height: auto;
         width: 10%;
-        max-width: 300px;
+        max-width: 200px;
         margin: 0 auto;
         padding: 0 20px;
     }
