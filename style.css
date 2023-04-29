@@ -222,7 +222,7 @@ audio {
     }
 
     .timeline-item {
-        width: 10%;
+        width: 50%;
     }
 
     .timeline-content {
@@ -236,7 +236,7 @@ audio {
 
     .timeline-container {
         height: auto;
-        width: 20%;
+        width: 50%;
         max-width: 200px;
         margin: 0 auto;
         padding: 0 20px;
