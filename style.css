@@ -100,20 +100,6 @@ audio {
     height: auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-  
-  @media screen and (min-width: 768px) {
-    /* adjust image size and positioning for larger screens */
-    img {
-      max-width: 50%;
-      float: left;
-      margin-right: 20px;
-    }
-}  
-
 /* TIMELINE */
 
 .timeline-container {
@@ -220,7 +206,21 @@ img {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 768px) {
+img {
+    max-width: 75%;
+    height: auto;
+}
+  
+@media screen and (min-width: 768px) {
+    /* adjust image size and positioning for larger screens */
+    img {
+      max-width: 40%;
+      float: left;
+      margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
     html,body {
         overflow-x: hidden;
     }
