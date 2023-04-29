@@ -217,7 +217,7 @@ audio {
     }
 
     .timeline-item {
-        width: 20%;
+        width: 10%;
     }
 
     .timeline-content {
@@ -226,12 +226,12 @@ audio {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease-in-out;
         transform: scale(0.8);
-        height: 20%;
+        height: 10%;
     }
 
     .timeline-container {
         height: auto;
-        width: 30%;
+        width: 10%;
         max-width: 300px;
         margin: 0 auto;
         padding: 0 20px;
