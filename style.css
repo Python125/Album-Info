@@ -171,7 +171,7 @@ audio {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 99%;
+    width: 191.5vh;
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
