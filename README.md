@@ -1,4 +1,4 @@
-# JavaScript-Animations
+# JavaScript-Animations-Beach-Boys
 
 This was another practical exercise to further hone my web development skills in HTML, CSS, and JavaScript. While keeping the core functionalities simple, I aimed to experiment with adding interactivity and a unique user experience.
 
