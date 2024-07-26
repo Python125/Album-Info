@@ -6,4 +6,4 @@ The project focuses on the iconic Beach Boys album "Pet Sounds." It showcases ea
 
 In essence, this project served to explore different techniques for incorporating audio elements and user interaction within a webpage.
 
-![gif]()
+![gif](/pet-sounds.gif)
