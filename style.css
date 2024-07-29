@@ -196,33 +196,24 @@ img {
   margin-left: auto;
 }
 
-@media only screen and (max-width: 768px) {
-  html,
-  body {
-    overflow-x: hidden;
+@media only screen and (max-width: 1925px) {
+  .landingText h3 {
+    font-family: "Cooper Black", sans-serif;
+    font-size: 2vw;
+    padding: 1rem;
+    text-align: center;
+    color: #fbde4f;
+    margin-bottom: 50.5rem;
   }
 
-  .timeline-slider {
-    margin: 0;
-    transform: translateX(0);
-  }
-
-  .timeline-item {
-    width: 35%;
-  }
-
-  .timeline-container {
-    height: auto;
-    width: 35%;
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
-  .timeline-controls {
-    position: relative;
-    top: auto;
-    transform: translateY(0);
+  .timeline-content-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    border-top: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 130px;
   }
 }
