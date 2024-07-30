@@ -206,6 +206,16 @@ img {
     margin-bottom: 50.5rem;
   }
 
+  .timeline-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex: none;
+    width: 15%;
+    height: 70%;
+    margin-left: 6%;
+    text-align: center;
+    position: relative;
+  }
+
   .timeline-content-container {
     position: absolute;
     bottom: 0;
@@ -215,5 +225,50 @@ img {
     padding: 10px;
     box-sizing: border-box;
     height: 130px;
+  }
+
+  .timeline-content {
+    background-color: #335f10;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+    height: 110px;
+  }
+
+  .timeline-content h3 {
+    color: #d3ba3b;
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .timeline-content p {
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 1%;
+  }
+
+  .timeline-item.active .timeline-content {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .timeline-controls {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    width: 191.5vh;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .timeline-controls .prev-btn {
+    margin-right: auto;
+  }
+
+  .timeline-controls .next-btn {
+    margin-left: auto;
   }
 }
